@@ -1,4 +1,4 @@
-# MojangCheck
+# CitizensSkinFix
 
 Plugin de diagnóstico para Paper/Spigot que prueba si el servidor puede conectarse
 correctamente a los servidores de Mojang. Se creó para diagnosticar por qué las
@@ -6,7 +6,7 @@ skins de NPCs (plugin Citizens) no cargaban en un servidor con `online-mode=fals
 
 ## Qué hace
 
-Al ejecutar `/mojangcheck`, el plugin intenta:
+Al ejecutar `/citizensskinfix`, el plugin intenta:
 
 1. Resolver DNS de cada dominio de Mojang relevante.
 2. Hacer una petición HTTP real a cada uno.
@@ -22,17 +22,17 @@ Dominios probados:
 
 1. Ve a la pestaña **Actions** de este repositorio.
 2. Entra al workflow más reciente (**Build Plugin**) que haya corrido.
-3. Descarga el artefacto **MojangCheck-plugin** (es un `.zip` que contiene el `.jar`).
+3. Descarga el artefacto **CitizensSkinFix-plugin** (es un `.zip` que contiene el `.jar`).
 4. Extrae el `.jar` y súbelo a la carpeta `plugins/` de tu servidor.
 5. Reinicia el servidor (o usa un plugin de reload de plugins).
 
 ## Uso
 
 ```
-/mojangcheck
+/citizensskinfix
 ```
 
-Requiere el permiso `mojangcheck.use` (por defecto solo `op`).
+Requiere el permiso `citizensskinfix.use` (por defecto solo `op`).
 
 ## Interpretando el resultado
 
