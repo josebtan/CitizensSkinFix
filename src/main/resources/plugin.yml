@@ -1,17 +1,17 @@
-name: MojangCheck
+name: CitizensSkinFix
 version: '1.0.0'
-main: com.unitycraft.mojangcheck.MojangCheckPlugin
+main: com.unitycraft.citizensskinfix.CitizensSkinFixPlugin
 api-version: '1.21'
 author: UnityCraft
-description: Plugin de diagnostico para probar conectividad del servidor con los servidores de Mojang (usado para diagnosticar problemas de skins de NPCs).
+description: Plugin de diagnostico para probar conectividad del servidor con los servidores de Mojang (usado para diagnosticar problemas de skins de NPCs de Citizens).
 
 commands:
-  mojangcheck:
+  citizensskinfix:
     description: Prueba la conectividad del servidor con los servidores de Mojang
-    usage: /mojangcheck
-    permission: mojangcheck.use
+    usage: /citizensskinfix
+    permission: citizensskinfix.use
 
 permissions:
-  mojangcheck.use:
-    description: Permite usar el comando /mojangcheck
+  citizensskinfix.use:
+    description: Permite usar el comando /citizensskinfix
     default: op
