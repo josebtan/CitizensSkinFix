@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.unitycraft</groupId>
-    <artifactId>mojangcheck</artifactId>
+    <artifactId>citizensskinfix</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>MojangCheck</name>
-    <description>Plugin de diagnostico de conectividad con Mojang</description>
+    <name>CitizensSkinFix</name>
+    <description>Plugin de diagnostico de conectividad con Mojang para arreglar skins de NPCs de Citizens</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
